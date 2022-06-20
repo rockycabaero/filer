@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteBase /
+RewriteRule ^domain/(.*)$ proxy.php?domain=$1
+</IfModule>

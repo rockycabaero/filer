@@ -1,0 +1,44 @@
+{
+  "name": "domain-scanner",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "prebuild": "yarn --cwd client install",
+    "build": "yarn --cwd client build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/mdneyazahmad/domain-scanner.git",
+  "keywords": [],
+  "author": "Neyaz Ahmad <mdneyazahmad66@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdneyazahmad/domain-scanner/issues"
+  },
+  "homepage": "https://github.com/mdneyazahmad/domain-scanner#readme",
+  "description": "",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "bottleneck": "^2.19.5",
+    "cors": "^2.8.5",
+    "cron": "^1.8.2",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "json2csv": "^5.0.6",
+    "jsonwebtoken": "^8.5.1",
+    "moment-timezone": "^0.5.33",
+    "mysql2": "^2.3.2",
+    "nanoid": "^3.1.30",
+    "nodemailer": "^6.7.0",
+    "sequelize": "^6.6.5",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "engines": {
+    "node": "14.x",
+    "yarn": "1.x"
+  }
+}
